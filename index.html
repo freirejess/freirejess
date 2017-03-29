@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8"/>
+		<title> Jessica | Responsive Web</title>
+		<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
+		<link href="style.css" type="text/css" rel="stylesheet">
+		<!--[if lt IE 9]>
+		<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+		<script type='text/javascript' src='respond.min.js'></script>
+        
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
+        
+	</head>
+    
+	<body>
+
+		<div id="wrapper">
+		
+			<header>
+				
+				
+				
+                <section id="head">
+                
+				<h1><font face="myFirstFont" color="#c4c4cd">Autism in Museums</font></h1>
+                </section>
+				
+				<nav>
+					<ul>
+						<li><a href="#aside1" title="Intro">Intro</a></li>
+						<li><a href="#aside" title="Research">Research</a></li>
+						<li><a href="#aside2" title="Idea">Idea</a></li>
+						<li><a href="#aside3" title="Difference">Difference</a></li>
+					</ul>
+				</nav>
+				
+				
+				
+			</header>	
+		
+			<section id="main">
+            
+            <section id="aside1">
+				<h1><font face="my3font" size="5em">Intro</font></h1>
+                <svg height="10" width="500">
+  <line x1="2"  x2="80"  style="stroke:#f7efe2;stroke-width:4" />
+</svg>
+				<p><font face="my2font" size="4em" color="#000000">Galleries, libraries and museums and for everyone, but the experience will be different for every individual, and for some more difficult than others. Many families and young people with autism and learning disabilities find visiting museums difficult, and many parents will scrap the whole idea from the fear of their child not enjoying themselves and not knowing what to expect when going there. Museums are a great learning and interactive resource; they support existing interests and encourage new ones. For children with autism developing social and educational behaviours is very important, which is why nothing should be stopping them from experiencing the museum environment.</font></p>
+                
+                <img src="kids.png" alt="kids" width="80%" height="80%">
+			</section>
+		
+			<aside>
+            <section id="aside">
+				<h1><font face="my3font" size="5em">Research</font></h1>
+                <svg height="10" width="500">
+  <line x1="2"  x2="80"  style="stroke:#f7efe2;stroke-width:4" />
+</svg>
+				<p><font face="my2font" size="4em" color="#000000">1 in every 88 children in New Zealand are on the Autism spectrum, and every 1 in 6 new Zealanders have a learning disability, that’s over 50,000 kiwis. Surveys show that parents with autistic kids have the highest levels of stress and planning anything with these children is challenging and time consuming, down to a simple trip to the hairdressers.<br><br>
+                Parents with autistic kids struggle to make sure their kids always feel included and a part of everything that is going on, public outings can cause many issues and uncertainties. Which a terrible shame considering how so many of these autistic children have the capability to completely immerse themselves into so many topics and subjects. A lot of them which the museum has to present.<br><br>
+                
+                Now, can you imagine the struggle and panic that would surround taking your child to a busy, lively museum? Wouldn’t it be great to make the task easier and more accessible? </font></p>
+                </section>
+			</aside>
+            
+            <section id="aside2">
+            <h1><font face="my3font" size="5em">Idea</font></h1>
+            <svg height="10" width="500">
+  <line x1="2"  x2="80"  style="stroke:#f7efe2;stroke-width:4" />
+</svg>
+            <p><font face="my2font" size="4em" color="#000000">My proposal is to create a guide APP for families with autistic kids and for young people with learning disabilities and autism.<br>
+-The APP would provide an interactive map different from others, which would advice to where bathrooms, cafes, lifts and quiet areas are. <br>
+-It would provide the family with images of the staff uniform and who to ask for help and images for the children to understand the entrance and main areas of the museum – knowing where they will be and what to expect can help the child remain calm and enjoy themselves.-<br>
+-For a family with an autistic child navigating busy areas can be trick, anything can set the child off including bright lights, loud sounds and tight spaces. The APP would provide the best trails to take and exhibits that will be best enjoyed and ones to avoid.<br><br>
+
+APP Mock Up
+
+</font></p>
+<style>
+img {
+	padding-left:2%;
+	padding-top:1%;
+	margin:auto;
+	}
+</style>
+
+<img src="content.jpg" alt="map" width="70%" height="70%">
+
+            </section>
+            
+            <section id="aside3">
+            <h1><font face="my3font" size="5em">Difference it Could Make</font></h1>
+            <svg height="10" width="500">
+  <line x1="2"  x2="80"  style="stroke:#f7efe2;stroke-width:4" />
+</svg>
+            <p><font face="my2font" size="4em" color="#000000">Finding a way to make every family feel comfortable, including families with autistic kids would mean more visitors in the museum, parents knowing what to expect and knowing they have support from the staff and museum would make them feel welcomed and relaxed to take their kids to a place that would be safe and happy. It would also encourage young adults with autism to visit the museum, considering they would know where everything is and the best ways to get around. At interactive museums people are encouraged to touch, listen and even smell and taste things, and the great thing is that hands-on learning is very important for kids with autism, it helps them to develop their social and interactive skills, making trips to museums an essential part of their education and personal development. This APP would not only help ‘up’ the accessibility of the museum but it would be a crucial element for parents to feel welcome in this environment and for kids with autism to get the best possible experience out of a museum with no hassles and problems.</font></p>
+            </section>
+	</section>
+		</div>
+   
+	</body>
+</html>
