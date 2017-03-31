@@ -21,6 +21,7 @@ footer, header, hgroup, menu, nav, section {
 	max-width: 1000px;
 	margin: auto;
 	padding: 2%;
+	overflow-x: hidden;
 	
 	} 
 
